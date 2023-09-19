@@ -1,0 +1,65 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+header {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+/* Define different background colors for each section */
+.hero {
+    background-color: #ff6600; /* Orange */
+    color: #fff;
+    padding: 20px;
+}
+
+.projects {
+    background-color: #3399cc; /* Blue */
+    color: #fff;
+    padding: 20px;
+}
+
+.about-me {
+    background-color: #66cc66; /* Green */
+    color: #fff;
+    padding: 20px;
+}
+
+.contact {
+    background-color: #ffcc00; /* Yellow */
+    color: #333; /* Text color on yellow background */
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
