@@ -34,4 +34,28 @@
     border: solid #ff9dcf;
     border-radius: 20px;
     box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+    padding: 0 40px 0 80px;
+}
+
+.hero nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+.hero nav .logo{
+    color: #801f82;
+    font-size: 65px;
+    font-weight: bold;
+}
+.hero nav .nav-links a {
+    color: #242424;
+    margin-left: 40px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.hero nav .nav-links a:hover,
+.hero nav .nav-links a:active{
+    color: #801f82;
 }
