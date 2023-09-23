@@ -63,14 +63,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 40px;
 }
 .hero .content .div-text{
     width: 40%;
 }
+.hero .content .div-text h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+.hero .content .div-text h4{
+    color: #801f82;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.hero .content .div-text p{
+    color: #4f4f4f;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.hero .content .div-text 
+
+
 
 .hero .content .div-img {
     width: 40%;
-    padding-right: 40px;
+   
 }
 hero .content .div-img img{
     width: 100%;
