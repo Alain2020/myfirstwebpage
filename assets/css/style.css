@@ -83,7 +83,19 @@
     margin-bottom: 50px;
     font-size: 18px;
 }
-.hero .content .div-text 
+.hero .content .div-text .btn{
+    padding: 15px 20px;
+    background-color: #801f82;
+    border: 2px solid #801f82;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.hero .content .div-text .btn:hover{
+    color: #801f82;
+    transition: 0.3s;
+    background-color: transparent;
+}
 
 
 
