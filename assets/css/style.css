@@ -9,6 +9,9 @@
     width: 100%;
     height: 100vh;
     background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contanier::before{
@@ -26,5 +29,9 @@
     z-index: 10;
     height: 85vh;
     width: 75%;
-    background: rgba(red, green, blue, alpha);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border: solid #ff9dcf;
+    border-radius: 20px;
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
 }
