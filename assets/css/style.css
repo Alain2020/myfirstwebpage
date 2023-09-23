@@ -1,129 +1,30 @@
-/* Reset some default browser styles */
-body, h1, h2, h3, p, ul, li {
+*{
+    padding: 0;
     margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #165a8a; /* Updated background color */
-    color: #fff;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-/* Header styles */
-.header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Navbar styles */
-.navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 20px; /* Add space between navigation links */
-}
-
-.navbar li {
-    margin-right: 20px;
-}
-
-.navbar a {
+    box-sizing: border-box;
     text-decoration: none;
-    color: #fff;
-    font-weight: bold; /* Make the links bold for emphasis */
-    transition: color 0.3s ease; /* Add a smooth color transition on hover */
 }
 
-.navbar a:hover {
-    color: #ff6600; /* Change the color on hover to highlight the link */
+.contanier{
+    width: 100%;
+    height: 100vh;
+    background-color: #f9f9f9;
 }
 
-/* Profile picture styles */
-.profile-picture {
-    max-width: 50%; /* Reduce the maximum width */
-    width: 80%; /* Make the image responsive */
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 50%;
-    border: 4px solid #fff; /* Add a white border for a polished look */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+.contanier::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-color: #ff9dcf;
 }
 
-
-/* ... (other styles remain unchanged) */
-
-/* Hero section styles */
-.hero {
-    background-color: #ff6600;
-    color: #fff;
-    padding: 60px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Set the height to viewport height to center it vertically */
+.contanier .hero{
+    position: relative;
+    z-index: 10;
+    height: 85vh;
+    width: 75%;
+    background: rgba(red, green, blue, alpha);
 }
-
-.hero-content {
-    max-width: 800px;
-}
-
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-family: 'Arial', sans-serif; /* Example font family, you can change it to your preference */
-    text-transform: uppercase; /* Uppercase text for emphasis */
-    letter-spacing: 2px; /* Add letter-spacing for style */
-}
-
-.hero-description {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    font-family: 'Arial', sans-serif; /* Example font family, you can change it to your preference */
-}
-
-
-/* Skills section styles */
-.skills {
-    background-color: #1c1c1c; /* Dark gray background color */
-    color: #fff;
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.skills-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.skills h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.skills ul {
-    list-style: none;
-    padding: 0;
-}
-
-.skills li {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-/* ... (other styles remain unchanged) */
